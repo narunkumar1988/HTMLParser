@@ -1,0 +1,13 @@
+input:
+ html:
+  file: "C:\\Users\\anagai\\Documents\\Monitor Jobs.htm"
+  tableId: "__bookmark_1"
+output:
+ excel:  
+  file: "E:\\Arun\\supportPOC\\HTMLParser\\sxssf_example.xlsx"
+  sheetName: "Jobs"
+  rowsToBeProcessed: 40
+  index:
+    job: 1
+    startTime: 5
+    duration: 7
