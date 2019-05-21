@@ -1,13 +1,13 @@
 input:
  html:
-  file: "C:\\Users\\anagai\\Documents\\Monitor Jobs.htm"
+  file: "C:\\Users\\a151623\\Downloads\\5_16_2019.html"
   tableId: "__bookmark_1"
 output:
  excel:  
-  file: "E:\\Arun\\supportPOC\\HTMLParser\\sxssf_example.xlsx"
-  sheetName: "Jobs"
+  file: "C:\\Users\\a151623\\Documents\\BatchJobSheet_19th_May_2019 - Copy.xlsx"
+  sheetName: "Night jobs"
   rowsToBeProcessed: 40
   index:
-    job: 1
-    startTime: 5
-    duration: 7
+    job: 2
+    startTime: 4
+    duration: 5
