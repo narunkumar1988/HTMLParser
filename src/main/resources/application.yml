@@ -1,13 +1,15 @@
 input:
- html:
-  file: "C:\\Users\\a151623\\Downloads\\Monitor Jobs.htm"
-  tableId: "__bookmark_1"
+   html:
+      file: C:\Users\a151623\Downloads\Monitor Jobs.htm
+      tableId: __bookmark_1
 output:
- excel:  
-  file: "C:\\Users\\a151623\\Documents\\BatchJobSheet_19th_May_2019 - Copy.xlsx"
-  sheetName: "Night jobs"
-  rowsToBeProcessed: 40
-  index:
-    job: 2
-    startTime: 4
-    duration: 5
+   excel:
+      file: C:\Users\a151623\Documents\BatchJobSheet_19th_May_2019 - Copy.xlsx
+      sheetName: Night jobs
+      rowsToBeProcessed: 40
+      index:
+         job: 2
+         startTime: 4
+         duration: 5
+cron:
+   expression: 0 0 7 * * ?
